@@ -3,7 +3,7 @@ public class Circle {
     private int id = 0;
     private double radius;
     public static double maxRadius = 0;
-    public static double pi = 3.14;
+    public final double pi = 3.14;
     public static double sumArea = 0;
 
     Circle(int id, double radius) {
